@@ -35,7 +35,6 @@
       <Unit0>
         <Filename Value="chemform.pp"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="chemform"/>
       </Unit0>
     </Units>
   </ProjectOptions>
@@ -47,7 +46,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="..\..\..\trunk\src\engine\core"/>
+      <OtherUnitFiles Value="..\..\engine\core;..\..\engine\chemform"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Parsing>
@@ -60,9 +59,6 @@
         <UseHeaptrc Value="True"/>
       </Debugging>
     </Linking>
-    <Other>
-      <CompilerPath Value="$(CompPath)"/>
-    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">
