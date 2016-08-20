@@ -14,7 +14,7 @@ var
   v1, v2: SimVars;
 
 begin
-  PP_initialize('./components');
+  PP_initialize('../../../../engine/physprops/components');
 
   writeln;
   writeln('vapor pressure');
